@@ -34,16 +34,16 @@ const Header = () => {
 
           {/* Navigation - Desktop */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
-              Features
+            <a href="/study" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+              Study
             </a>
-            <a href="#courses" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+            <a href="/course" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
               Courses
             </a>
-            <a href="#interview" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+            <a href="/interview" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
               AI Interview
             </a>
-            <a href="#dashboard" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+            <a href="/dashboard" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
               Dashboard
             </a>
             <Badge variant="secondary" className="neural-border">
