@@ -31,7 +31,7 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <a href="/" className="flex items-center space-x-3">
             <div className="neural-glow">
               <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
                 <Brain className="w-6 h-6 text-white animate-pulse" />
@@ -41,7 +41,7 @@ const Header = () => {
               <h1 className="text-xl font-bold hero-text">Versity.AI</h1>
               <p className="text-xs text-muted-foreground">AI-Powered Learning</p>
             </div>
-          </div>
+          </a>
 
           {/* Navigation - Desktop */}
           <nav className="hidden md:flex items-center space-x-8">
