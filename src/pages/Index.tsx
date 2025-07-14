@@ -1,4 +1,3 @@
-import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import PathSelection from "@/components/PathSelection";
 import Features from "@/components/Features";
@@ -6,14 +5,11 @@ import Features from "@/components/Features";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Header />
-      
       <main>
         <Hero />
         <PathSelection />
         <Features />
       </main>
-      
       {/* Footer */}
       <footer className="ai-card border-t border-border/50 py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -29,7 +25,6 @@ const Index = () => {
               </button>
             </div>
           </div>
-          
           <div className="mt-12 pt-8 border-t border-border/30 text-center text-sm text-muted-foreground">
             <p>&copy; 2024 Versity.AI. All rights reserved. Powered by Advanced AI Technology.</p>
           </div>

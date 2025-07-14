@@ -11,7 +11,7 @@ import {
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-24">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-hero opacity-10"></div>
       <div className="absolute inset-0 bg-gradient-glow animate-pulse"></div>
