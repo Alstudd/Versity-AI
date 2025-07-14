@@ -11,7 +11,7 @@ import {
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 pb-12">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-hero opacity-10"></div>
       <div className="absolute inset-0 bg-gradient-glow animate-pulse"></div>
@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="absolute top-1/2 left-5 w-16 h-16 bg-accent/20 rounded-full blur-xl animate-float" style={{ animationDelay: "4s" }}></div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <div className="max-w-4xl mx-auto space-y-8 animate-slide-up">
+        <div className="max-w-4xl mx-auto space-y-5 animate-slide-up">
           {/* Badge */}
           <Badge variant="secondary" className="neural-border mx-auto">
             <Sparkles className="w-4 h-4 mr-2" />
@@ -30,9 +30,9 @@ const Hero = () => {
           </Badge>
 
           {/* Main Heading */}
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold leading-tight">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold leading-relaxed">
             The Future of
-            <span className="block hero-text">Personalized Learning</span>
+            <span className="block hero-text overflow-visible">Personalized Learning</span>
           </h1>
 
           {/* Subheading */}
