@@ -158,6 +158,7 @@
 
   .hero-text {
     @apply bg-gradient-hero bg-clip-text text-transparent;
+    padding-bottom: 0.2em;
   }
 
   .glow-effect {
